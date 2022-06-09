@@ -3,8 +3,8 @@ body {
 }
 
 .header {
-    background-color: rgb(31 41 55);
-    padding: 1rem 10rem 4rem;
+    background-color: #1f2937;
+    padding: 1rem 10rem 6rem;
 }
 
 .header-top {
@@ -23,24 +23,30 @@ body {
 .header-links {
     display: flex;
     list-style: none;
-    gap: 2rem;
+    gap: 2rem
 }
 
 .header-body {
     color: white;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 4rem;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    gap: 1rem 4rem;
 }
 
 .signup-info {
-    flex: 1 1 300px;
+    flex: 1 0 300px;
+}
+
+.signup-info h1 {
+    font-size: 48px;
+    margin-bottom: 0;
 }
 
 .header-body img {
+    min-width: 300px; /*Lets img to shrink*/
     border-radius: 8px;
-    width: 480px;
+    flex: 0 1 480px;
 }
 
 a {
@@ -55,4 +61,39 @@ button {
     border-radius: 8px;
     font-weight: bold;
     padding: 8px 16px;
+}
+
+h2 {
+    color: #1f2937;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.upper-body {
+    padding: 1rem 10rem;
+}
+
+.info-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+    justify-content: center;
+}
+
+.info-images img {
+    border: 4px solid #3b82f6;
+    border-radius: 16px;
+    width: 160px;
+    height: 160px;
+}
+
+.info-images div {
+    max-width: 160px;
+    color: #707479;
+}
+
+.lower-body {
+    padding: 1rem 10rem;
+    background-color: #e5e7eb;
 }
