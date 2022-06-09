@@ -1,0 +1,58 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.header {
+    background-color: rgb(31 41 55);
+    padding: 1rem 10rem 4rem;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+
+.header-logo {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.header-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.header-body {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.signup-info {
+    flex: 1 1 300px;
+}
+
+.header-body img {
+    border-radius: 8px;
+    width: 480px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(205, 205, 205);
+}
+
+button {
+    color: white;
+    background-color: rgb(59 130 246);
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 8px 16px;
+}
