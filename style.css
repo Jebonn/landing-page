@@ -44,8 +44,8 @@ body {
 }
 
 .header-body img {
-    min-width: 300px; /*Lets img to shrink*/
-    border-radius: 8px;
+    min-width: 300px; /*Lets img to shrink up to given size*/
+    border-radius: 16px;
     flex: 0 1 480px;
 }
 
@@ -60,7 +60,7 @@ button {
     border: none;
     border-radius: 8px;
     font-weight: bold;
-    padding: 8px 16px;
+    padding: 8px 24px;
 }
 
 h2 {
@@ -71,13 +71,13 @@ h2 {
 }
 
 .upper-body {
-    padding: 1rem 10rem;
+    padding-bottom: 1rem;
 }
 
 .info-images {
     display: flex;
     flex-wrap: wrap;
-    gap: 48px;
+    gap: 50px;
     justify-content: center;
 }
 
@@ -94,6 +94,42 @@ h2 {
 }
 
 .lower-body {
-    padding: 1rem 10rem;
+    padding: 4rem 16rem;
     background-color: #e5e7eb;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 1rem;
+}
+
+.quote-source {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: end;
+}
+
+.call-to-action {
+    background-color: #3b82f6;
+    color: white;
+    display: flex;
+    margin: 6rem 10rem;
+    padding: 2rem 6rem;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-to-action button {
+    border: 1px solid #ffffff;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
 }
